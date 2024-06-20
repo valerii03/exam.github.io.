@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rating Block</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .rating-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            height: 50px;
+            background-color: #dcdcdc;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .rating-number {
+            background-color: #9acd32;
+            padding: 0 20px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            white-space: nowrap;
+        }
+        .rating-buttons {
+            display: flex;
+            align-items: center;
+            height: 100%;
+        }
+        .rating-buttons button {
+            width: 40px;
+            height: 100%;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            color: white;
+        }
+        .button-minus {
+            background-color: #d9534f;
+        }
+        .button-plus {
+            background-color: #5cb85c;
+        }
+    </style>
+</head>
+<body>
+    <div class="rating-container">
+        <div class="rating-number">9691</div>
+        <div class="rating-buttons">
+            <button class="button-minus">-</button>
+            <div style="padding: 0 10px; color: white;">6</div>
+            <button class="button-plus">+</button>
+        </div>
+    </div>
+</body>
+</html>
